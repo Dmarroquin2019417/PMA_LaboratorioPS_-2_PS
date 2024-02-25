@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Mascotas",
+    "dateExported": "2024-02-25T21:13:16.126Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "93ca1f46-30c7-4121-95c6-a620a9d6bed3",
+            "colId": "99ad0435-8840-4972-8fa9-691a53f2a63e",
+            "containerId": "",
+            "name": "mascotasPost",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-25T21:07:38.548Z",
+            "modified": "2024-02-25T21:10:21.461Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\":\"Toby\",\n  \"edad\":\"2\",\n  \"especie\":\"perro\",\n  \"dueño\": \"Martin\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d1552662-07eb-42f1-94ff-b4b93c2ff681",
+            "colId": "99ad0435-8840-4972-8fa9-691a53f2a63e",
+            "containerId": "",
+            "name": "mascotasGet",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-25T21:07:40.476Z",
+            "modified": "2024-02-25T21:07:40.477Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "00544217-4ef5-4349-a50f-ba2d1afdf758",
+            "colId": "99ad0435-8840-4972-8fa9-691a53f2a63e",
+            "containerId": "",
+            "name": "getMascotaById",
+            "url": "http://localhost:3000/api/mascotas/65dbad3c1926c3ae0d31daac",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-25T21:07:41.931Z",
+            "modified": "2024-02-25T21:12:56.056Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fadd187d-c004-4170-93b9-e0cdcf065a70",
+            "colId": "99ad0435-8840-4972-8fa9-691a53f2a63e",
+            "containerId": "",
+            "name": "mascotasPut",
+            "url": "http://localhost:3000/api/mascotas/65dbad3c1926c3ae0d31daac",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-25T21:07:43.331Z",
+            "modified": "2024-02-25T21:12:58.805Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Panfilo\",\n  \"especie\": \"Gato\",\n  \"edad\": \"4\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4038da27-31e9-4042-9d93-4c053b67417a",
+            "colId": "99ad0435-8840-4972-8fa9-691a53f2a63e",
+            "containerId": "",
+            "name": "mascotaDelete",
+            "url": "http://localhost:3000/api/mascotas/65dbad3d1926c3ae0d31daae",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-25T21:07:44.614Z",
+            "modified": "2024-02-25T21:12:46.000Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
